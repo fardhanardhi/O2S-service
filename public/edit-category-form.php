@@ -159,7 +159,7 @@
 		}
 
 		if(isset($_POST['btnCancel'])){
-			header("location: category.php");
+			echo "<script language='javascript'> window.location = 'category.php'</script>";
 		}
 		
 	?>
